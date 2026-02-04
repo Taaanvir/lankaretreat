@@ -69,7 +69,7 @@ const GrandPrizesSection = () => {
             <div
               key={prize.rank}
               className={`relative rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 ${
-                prize.highlight ? 'md:-mt-6 md:mb-6 prize-glow' : ''
+                prize.highlight ? 'prize-glow' : ''
               }`}
             >
               {/* Rank Badge */}
