@@ -53,12 +53,12 @@ const HeroSection = () => {
             
             {/* Tagline */}
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light mb-4 animate-fade-in-up text-center" style={{ animationDelay: '0.2s' }}>
-              ভাগ্যের সাথে যোগ দিন এবং <span className="text-gold font-semibold">আরও বেশি আয় করুন</span>, <span className="text-gold font-semibold">আরও বেশি উপভোগ করুন!</span>
+              ভাাগ্য তে যোগ দিন এবং <span className="text-gold font-semibold">আরও বেশি আয় করুন</span>, <span className="text-gold font-semibold">আরও বেশি উপভোগ করুন!</span>
             </p>
             
             {/* Description */}
             <p className="text-base md:text-lg text-primary-foreground/70 mb-10 animate-fade-in-up text-center" style={{ animationDelay: '0.3s' }}>
-              শ্রীলঙ্কার জন্য একটি বিলাসবহুল ৪ দিনের ভ্রমণ জিতুন! শীর্ষ ৭ অ্যাফিলিয়েট এবং রেফারেল গ্র্যান্ড ট্রাভেল প্যাকেজ এবং মাসিক গিফট কার্ড পুরস্কার জিতুন।
+              শ্রীলঙ্কায় একটি বিলাসবহুল ৪ দিনের ভ্রমণ জিতুন! শীর্ষ ৭ অ্যাফিলিয়েট এবং রেফারেল গ্র্যান্ড ট্রাভেল প্যাকেজ এবং মাসিক গিফট কার্ড পুরস্কার জিতুন।
             </p>
             
             {/* Campaign Info Cards */}
@@ -66,22 +66,22 @@ const HeroSection = () => {
               <div className="w-full md:w-56 lg:w-56 bg-card/60 backdrop-blur-md rounded-xl px-5 py-3 flex items-center gap-3 shadow-card">
                 <Calendar className="w-5 h-5 text-gold flex-shrink-0" />
                 <div className="text-left">
-                  <p className="text-xs text-muted-foreground uppercase tracking-wide">প্রচার সময়কাল</p>
-                  <p className="text-sm text-foreground font-semibold">১ ফেব - ৩০ এপ্রিল ২০২৬</p>
+                  <p className="text-xs text-muted-foreground uppercase tracking-wide">প্রোমো সময়কাল</p>
+                  <p className="text-sm text-foreground font-semibold">১ ফেব্রুয়ারী - ৩০ এপ্রিল ২০২৬</p>
                 </div>
               </div>
               <div className="w-full md:w-56 lg:w-56 bg-card/60 backdrop-blur-md rounded-xl px-5 py-3 flex items-center gap-3 shadow-card">
                 <Trophy className="w-5 h-5 text-gold flex-shrink-0" />
                 <div className="text-left">
                   <p className="text-xs text-muted-foreground uppercase tracking-wide">গ্র্যান্ড পুরস্কার</p>
-                  <p className="text-sm text-foreground font-semibold">৩ রাত/৪ দিন শ্রীলঙ্কা ট্রিপ</p>
+                  <p className="text-sm text-foreground font-semibold">৩ রাত/৪ দিন লাক্সারি শ্রীলঙ্কা ট্রিপ</p>
                 </div>
               </div>
               <div className="w-full md:w-56 lg:w-56 bg-card/60 backdrop-blur-md rounded-xl px-5 py-3 flex items-center gap-3 shadow-card">
                 <Users className="w-5 h-5 text-gold flex-shrink-0" />
                 <div className="text-left">
                   <p className="text-xs text-muted-foreground uppercase tracking-wide">বিজয়ী</p>
-                  <p className="text-sm text-foreground font-semibold">শীর্ষ ৭ + মাসিক শীর্ষ ৫</p>
+                  <p className="text-sm text-foreground font-semibold">শীর্ষ ৭ জন + মাসিক ৫ জন</p>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const HeroSection = () => {
               </Button>
               <Button variant="heroOutline" size="xl" asChild>
                 <a href="https://www.bhaggo.co/affiliate/news" target="_blank" rel="noopener noreferrer">
-                  একজন অ্যাফিলিয়েট হন
+                  অ্যাফিলিয়েট প্রোগ্রামে যোগ দিন
                 </a>
               </Button>
             </div>

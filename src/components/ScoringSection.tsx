@@ -13,7 +13,7 @@ const ScoringSection = () => {
               <span className="text-primary font-semibold text-sm tracking-wide">স্কোরিং সিস্টেম</span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-              লিডারবোর্ড গাইড করতে কীভাবে
+              লিডারবোর্ডে যেভাবে সেরা তালিকায় আসবেন
             </h2>
             <p className="text-lg text-muted-foreground">
               আপনার রেফার করা খেলোয়াড়দের ডিপোজিটের উপর ভিত্তি করে পয়েন্ট অর্জন করুন
@@ -47,7 +47,7 @@ const ScoringSection = () => {
               <div className="flex items-center justify-center gap-3 text-center">
                 <TrendingUp className="w-6 h-6 text-gold" />
                 <p className="text-lg text-foreground">
-                  পয়েন্ট <span className="font-semibold text-primary">সম্পূর্ণ প্রচার সময়কাল জুড়ে জমা হয়</span>
+                  পয়েন্ট <span className="font-semibold text-primary">সম্পূর্ণ প্রোমো সময়কাল জুড়ে জমা হয়</span>
                 </p>
               </div>
             </div>
@@ -67,7 +67,7 @@ const ScoringSection = () => {
                 </h3>
               </div>
               <p className="text-primary-foreground/80 mb-6">
-                লিডারবোর্ড প্রতিদিন ২টা (জিএমটি +৬) তে আপডেট করা হয়
+                লিডারবোর্ড প্রতিদিন বাংলাদেশ সময় ২ টায় আপডেট করা হয়
               </p>
               <Button variant="gold" size="lg" asChild>
                 <a href="https://bhaggopartners.com/leaderboard" target="_blank" rel="noopener noreferrer">

@@ -3,39 +3,39 @@ import { Trophy, Plane, Hotel, UtensilsCrossed, Car, CreditCard } from "lucide-r
 const prizes = [
   {
     rank: "১ম",
-    title: "সম্পূর্ণ প্যাকেজ",
+    title: "ফুল প্যাকেজ",
     quantity: "১ জন বিজয়ী",
     features: [
-      { icon: CreditCard, text: "ভিসা খরচ কভার করা" },
-      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
-      { icon: Hotel, text: "৪-তারকা আবাসন" },
-      { icon: UtensilsCrossed, text: "সম্পূর্ণ বোর্ড খাবার ও পানীয়" },
-      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
+      { icon: CreditCard, text: "সম্পূর্ণ ভিসা খরচ" },
+      { icon: Plane, text: "ইকোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "ফোর স্টার হোটেল" },
+      { icon: UtensilsCrossed, text: "খাবার ও পানীয় সম্পূর্ণ খরচ" },
+      { icon: Car, text: "এয়ারপোর্ট ট্রান্সফার" },
     ],
     gradient: "from-gold/80 to-gold/50",
     highlight: false,
   },
   {
     rank: "২য়",
-    title: "অর্ধ প্যাকেজ",
+    title: "হাফ প্যাকেজ",
     quantity: "২ জন বিজয়ী",
     features: [
-      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
-      { icon: Hotel, text: "৪-তারকা আবাসন" },
-      { icon: UtensilsCrossed, text: "আধা বোর্ড খাবার ও পানীয়" },
-      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
+      { icon: Plane, text: "ইকোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "ফোর স্টার হোটেল" },
+      { icon: UtensilsCrossed, text: "খাবার ও পানীয় হাফ খরচ" },
+      { icon: Car, text: "এয়ারপোর্ট ট্রান্সফার" },
     ],
     gradient: "from-muted-foreground/60 to-muted-foreground/40",
     highlight: false,
   },
   {
     rank: "৩য়",
-    title: "আংশিক প্যাকেজ",
+    title: "পার্সিয়াল প্যাকেজ",
     quantity: "৪ জন বিজয়ী",
     features: [
-      { icon: Plane, text: "এক্সোনমি ক্লাস ফ্লাইট" },
-      { icon: Hotel, text: "৪-তারকা আবাসন" },
-      { icon: Car, text: "বিমানবন্দর ট্রান্সফার" },
+      { icon: Plane, text: "ইকোনমি ক্লাস ফ্লাইট" },
+      { icon: Hotel, text: "ফোর স্টার হোটেল" },
+      { icon: Car, text: "এয়ারপোর্ট ট্রান্সফার" },
     ],
     gradient: "from-sunset/80 to-sunset/50",
     highlight: false,
@@ -56,7 +56,7 @@ const GrandPrizesSection = () => {
             ৩ রাত এবং ৪ দিন
           </h2>
           <p className="text-xl text-muted-foreground">
-            শীর্ষ <span className="text-primary font-semibold">৭ জন</span> রেফারেল/অ্যাফিলিয়েটদের জন্য শ্রীলঙ্কার জন্য বিলাসবহুল ট্রিপ
+            শীর্ষ <span className="text-primary font-semibold">৭ জন</span> রেফারেল/অ্যাফিলিয়েটদের জন্য লাক্সারি শ্রীলঙ্কা সফর
           </p>
         </div>
 

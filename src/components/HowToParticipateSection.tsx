@@ -4,26 +4,26 @@ import { Button } from "@/components/ui/button";
 const steps = [
   {
     icon: UserPlus,
-    title: "নিবন্ধন করুন",
+    title: "রেজিস্ট্রেশন করুন",
     description: "অফিসিয়াল প্রোগ্রাম লিঙ্কের মাধ্যমে ভাগ্য রেফারেল বা অ্যাফিলিয়েট হিসেবে সাইন আপ করুন",
     number: "১",
   },
   {
     icon: Link2,
     title: "আপনার লিঙ্ক শেয়ার করুন",
-    description: "আপনার অনন্য রেফারেল বা অ্যাফিলিয়েট লিঙ্ক পান এবং সম্ভাব্য খেলোয়াড়দের সাথে শেয়ার করুন",
+    description: "আপনার রেফারেল বা অ্যাফিলিয়েট লিঙ্ক পাবার পর তা খেলোয়াড়দের সাথে শেয়ার করুন",
     number: "২",
   },
   {
     icon: Users,
-    title: "খেলোয়াড় অনবোর্ড করুন",
-    description: "প্রবেশের জন্য সর্বনিম্ন ১০ জন যোগ্য খেলোয়াড়, গ্র্যান্ড পুরস্কার যোগ্যতার জন্য ৫০+ জন",
+    title: "খেলোয়াড় নিয়ে আসুন",
+    description: "অংশ নেবার ক্ষেত্রে নুন্যতম ১০ জন খেলোয়াড়, গ্র্যান্ড পুরস্কার যোগ্যতার জন্য ৫০+ জন",
     number: "৩",
   },
   {
     icon: CheckCircle,
-    title: "তাদের যোগ্য করুন",
-    description: "খেলোয়াড়দের অবশ্যই ৫০০ টাকা সর্বনিম্ন ডিপোজিট করতে হবে এবং অন্তত তাদের ডিপোজিটের ১x গেম খেলতে হবে",
+    title: "খেলোয়াড়দের ডিপোজিট বাড়ান",
+    description: "খেলোয়াড়দের অবশ্যই সর্বনিম্ন ৫০০ টাকা ডিপোজিট করতে হবে এবং ডিপোজিটের অন্তন্ত ১ গুন খেলতে হবে",
     number: "৪",
   },
 ];
@@ -48,7 +48,7 @@ const HowToParticipateSection = () => {
             ৪টি সহজ ধাপে যোগ দিন
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            এই সহজ ধাপগুলির সাথে শ্রীলঙ্কার দিকে আপনার যাত্রা শুরু করুন
+            এই সহজ ধাপগুলির সাথে শ্রীলঙ্কার লাক্সারি ট্রিপে আপনার যাত্রা শুরু করুন
           </p>
         </div>
 
@@ -66,13 +66,13 @@ const HowToParticipateSection = () => {
               
               <div className="bg-secondary rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-elevated hover:-translate-y-2">
                 {/* Number Badge */}
-                <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
-                  <span className="text-foreground font-bold text-sm">{step.number}</span>
+                <div className="absolute -top-3 -right-3 w-9 h-9 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
+                  <span className="text-foreground font-bold text-xs">{step.number}</span>
                 </div>
                 
                 {/* Icon */}
-                <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                  <step.icon className="w-8 h-8 text-primary" />
+                <div className="w-20 h-20 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                  <step.icon className="w-10 h-10 text-primary" />
                 </div>
                 
                 {/* Content */}
@@ -96,7 +96,7 @@ const HowToParticipateSection = () => {
           </Button>
           <Button variant="outline" size="lg" asChild>
             <a href="https://www.bhaggo.co/affiliate/news" target="_blank" rel="noopener noreferrer">
-              একজন অ্যাফিলিয়েট হন
+              অ্যাফিলিয়েট প্রোগ্রামে যোগ দিন
             </a>
           </Button>
         </div>
@@ -109,10 +109,10 @@ const HowToParticipateSection = () => {
               গুরুত্বপূর্ণ প্রয়োজনীয়তা
             </h4>
             <ul className="space-y-2 text-sm text-foreground/80">
-              <li>• অ্যাফিলিয়েট/রেফারেল অবশ্যই নিয়মিত ডিপোজিট ইতিহাস সহ সক্রিয় ভাগ্য অ্যাকাউন্ট রাখবেন</li>
-              <li>• প্রতিযোগিতায় প্রবেশের জন্য সর্বনিম্ন ১০ জন যোগ্য খেলোয়াড়</li>
-              <li>• গ্র্যান্ড পুরস্কারের যোগ্যতার জন্য কমপক্ষে ৫০ জন যোগ্য খেলোয়াড়</li>
-              <li>• খেলোয়াড়দের যোগ্য হওয়ার জন্য ৫০০ টাকা + ডিপোজিট করতে এবং তাদের ডিপোজিটের 1x গেম খেলতে হবে</li>
+              <li>• অ্যাফিলিয়েট বা রেফারেলের জন্য নিয়মিত জমার ইতিহাস সহ একটি অ্যাকটিভ ভাগ্য অ্যাকাউন্ট থাকা প্রয়োজন।</li>
+              <li>• লঙ্কা রিট্রিটে অংশ নেবার ক্ষেত্রে নুন্যতম ১০ জন যোগ্য খেলোয়াড় থাকতে হবে</li>
+              <li>• গ্র্যান্ড পুরস্কারের ক্ষেত্রে কমপক্ষে ৫০ জন যোগ্য খেলোয়াড় থাকতে হবে</li>
+              <li>• আপনার নিয়ে আসা খেলোয়াড়দের যোগ্য হিসেবে বিবেচনার জন্য সর্বনিম্ন ৫০০ টাকা ডিপোজিট করতে এবং ডিপোজিটের অন্তন্ত ১ গুন গেম খেলতে হবে</li>
             </ul>
           </div>
         </div>

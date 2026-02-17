@@ -23,7 +23,7 @@ const MonthlyPrizesSection = () => {
             প্রতি মাসে জিতুন!
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-10">
-            প্রতি মাসে শীর্ষ ৫ পারফরমিং রেফারেল/অ্যাফিলিয়েট এক্সক্লুসিভ গিফট কার্ড জিতুন
+            প্রতি মাসে সেরা ৫ জন পারফর্মিং রেফারেল/অ্যাফিলিয়েট হয়ে এক্সক্লুসিভ গিফট কার্ড জিতুন
           </p>
           
           {/* Prize Card */}
@@ -39,7 +39,7 @@ const MonthlyPrizesSection = () => {
                     ৩,০০০ টাকা
                   </p>
                   <p className="text-muted-foreground text-lg">
-                    প্রতি মাসে শীর্ষ <span className="text-primary font-semibold">৫ জন</span> বিজয়ীর জন্য
+                    প্রতি মাসে সেরা <span className="text-primary font-semibold">৫ জন</span> বিজয়ীর জন্য
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const MonthlyPrizesSection = () => {
           
           {/* Note */}
           <p className="text-primary-foreground/60 text-sm mt-8">
-            বিজয়ীরা পরের মাসের ১৫ তারিখের মধ্যে ঘোষণা করা হয়
+             মাসিক পুরস্কার বিজয়ীদের পরবর্তী মাসের ১৫ তারিখের মধ্যে ঘোষণা করা হবে একটি সেলস KYC কলের মাধ্যমে অবহিত করা হবে। 
           </p>
         </div>
       </div>

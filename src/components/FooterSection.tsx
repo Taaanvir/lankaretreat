@@ -12,7 +12,7 @@ const FooterSection = () => {
             <span className="text-gradient-gold">রিট্রিট</span>
           </h3>
           <p className="text-primary-foreground/60 mb-8">
-            ভাগ্য রেফারেল এবং অ্যাফিলিয়েট প্রচার
+            ভাগ্য রেফারেল এবং অ্যাফিলিয়েট প্রোগ্রাম
           </p>
           
           {/* Social Links (logo-only square buttons) */}
@@ -57,7 +57,7 @@ const FooterSection = () => {
           {/* Copyright & Disclaimer */}
           <div className="space-y-4 text-xs text-primary-foreground/50">
             <p>
-              প্রচার সময়কাল: ১ ফেব থেকে ৩০ এপ্রিল ২০২৬
+              প্রচার সময়কাল: ১ ফেব্রুয়ারি থেকে ৩০ এপ্রিল ২০২৬
             </p>
             <p>
               © ২০২৬ ভাগ্য। সর্বাধিকার সংরক্ষিত। এই প্রচার শর্তাবলী সাপেক্ষে।
