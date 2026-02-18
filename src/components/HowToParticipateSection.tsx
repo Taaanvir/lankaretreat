@@ -29,6 +29,11 @@ const steps = [
 ];
 
 const HowToParticipateSection = () => {
+  const scrollToHeroCtas = () => {
+    const ctaElement = document.getElementById("hero-cta-buttons");
+    ctaElement?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
     <section className="py-24 bg-card relative overflow-hidden">
       {/* Background Pattern */}
@@ -64,7 +69,25 @@ const HowToParticipateSection = () => {
                 <div className="hidden lg:block absolute top-16 left-[60%] w-[80%] h-0.5 bg-gradient-to-r from-gold to-transparent" />
               )}
               
-              <div className="bg-secondary rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-elevated hover:-translate-y-2">
+              <div
+                className={`bg-secondary rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-elevated hover:-translate-y-2 ${
+                  step.number === "১" ? "cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2" : ""
+                }`}
+                onClick={step.number === "১" ? scrollToHeroCtas : undefined}
+                onKeyDown={
+                  step.number === "১"
+                    ? (event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                          event.preventDefault();
+                          scrollToHeroCtas();
+                        }
+                      }
+                    : undefined
+                }
+                role={step.number === "১" ? "button" : undefined}
+                tabIndex={step.number === "১" ? 0 : undefined}
+                aria-label={step.number === "১" ? "রেজিস্ট্রেশন CTA তে যান" : undefined}
+              >
                 {/* Number Badge */}
                 <div className="absolute -top-3 -right-3 w-9 h-9 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold">
                   <span className="text-foreground font-bold text-xs">{step.number}</span>

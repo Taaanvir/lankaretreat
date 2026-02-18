@@ -5,6 +5,7 @@ import ScoringSection from "@/components/ScoringSection";
 import HowToParticipateSection from "@/components/HowToParticipateSection";
 import TermsSection from "@/components/TermsSection";
 import FooterSection from "@/components/FooterSection";
+import TelegramWidget from "@/components/TelegramWidget";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <HowToParticipateSection />
       <TermsSection />
       <FooterSection />
+      <TelegramWidget />
     </main>
   );
 };

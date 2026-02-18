@@ -84,7 +84,7 @@ const TermsSection = () => {
               <span className="text-primary font-semibold text-sm tracking-wide">শর্তাবলী</span>
             </div>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
-              প্রচার নিয়ম
+              নিয়ম ও শর্তাবলী
             </h2>
             <p className="text-muted-foreground">
               অংশগ্রহণের আগে সমস্ত শর্তাবলী সাবধানে পড়ুন

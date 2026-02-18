@@ -22,24 +22,24 @@ const ScoringSection = () => {
 
           {/* Scoring Formula */}
           <div className="bg-card rounded-3xl p-8 md:p-12 shadow-elevated mb-12">
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="flex flex-row items-center justify-center gap-4 md:gap-8">
               {/* Points Display */}
               <div className="text-center">
-                <div className="w-32 h-32 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold mb-4 mx-auto">
-                  <span className="text-5xl font-serif font-bold text-foreground">১</span>
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold mb-3 md:mb-4 mx-auto">
+                  <span className="text-4xl md:text-5xl font-serif font-bold text-foreground">১</span>
                 </div>
-                <p className="text-xl font-semibold text-foreground">পয়েন্ট</p>
+                <p className="text-base md:text-xl font-semibold text-foreground">পয়েন্ট</p>
               </div>
               
               {/* Equals */}
-              <div className="text-4xl font-light text-muted-foreground">=</div>
+              <div className="text-3xl md:text-4xl font-light text-muted-foreground">=</div>
               
               {/* Amount */}
               <div className="text-center">
-                <div className="w-32 h-32 bg-primary rounded-full flex items-center justify-center mb-4 mx-auto">
-                  <span className="text-2xl font-serif font-bold text-primary-foreground">৫০০ টাকা</span>
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-primary rounded-full flex items-center justify-center mb-3 md:mb-4 mx-auto">
+                  <span className="text-lg md:text-2xl font-serif font-bold text-primary-foreground">৫০০ টাকা</span>
                 </div>
-                <p className="text-xl font-semibold text-foreground">ডিপোজিট</p>
+                <p className="text-base md:text-xl font-semibold text-foreground">ডিপোজিট</p>
               </div>
             </div>
             

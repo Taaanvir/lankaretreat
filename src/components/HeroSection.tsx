@@ -27,12 +27,12 @@ const HeroSection = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-sunset/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '2s' }} />
       
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 flex justify-center">
+      <div className="relative z-10 container mx-auto px-4 pt-2 pb-16 md:pt-12 md:pb-20 flex justify-center">
         <div className="max-w-6xl flex flex-col md:flex-row gap-8">
           <div className="flex-1"></div>
           <div className="flex-1">
             {/* Logo */}
-            <div className="mb-4 md:mb-8 animate-fade-in-up flex justify-center">
+            <div className="mb-6 md:mb-8 animate-fade-in-up flex justify-center">
               <img src={bhaggoLogo} alt="Bhaggo" className="h-14" />
             </div>
             
@@ -53,12 +53,12 @@ const HeroSection = () => {
             
             {/* Tagline */}
             <p className="text-xl md:text-2xl text-primary-foreground/90 font-light mb-4 animate-fade-in-up text-center" style={{ animationDelay: '0.2s' }}>
-              ভাাগ্য তে যোগ দিন এবং <span className="text-gold font-semibold">আরও বেশি আয় করুন</span>, <span className="text-gold font-semibold">আরও বেশি উপভোগ করুন!</span>
+              ভাগ্য তে যোগ দিন এবং <span className="text-gold font-semibold">আরও বেশি আয় করুন</span>, <span className="text-gold font-semibold">আরও বেশি উপভোগ করুন!</span>
             </p>
             
             {/* Description */}
             <p className="text-base md:text-lg text-primary-foreground/70 mb-10 animate-fade-in-up text-center" style={{ animationDelay: '0.3s' }}>
-              শ্রীলঙ্কায় একটি বিলাসবহুল ৪ দিনের ভ্রমণ জিতুন! শীর্ষ ৭ অ্যাফিলিয়েট এবং রেফারেল গ্র্যান্ড ট্রাভেল প্যাকেজ এবং মাসিক গিফট কার্ড পুরস্কার জিতুন।
+             শ্রীলঙ্কায় ৪ দিনের বিলাসবহুল ভ্রমণ জিতুন! সেরা ৭ জন অ্যাফিলিয়েট ও রেফারেল বিজয়ীর জন্য রয়েছে আকর্ষণীয় গ্র্যান্ড ট্রাভেল প্যাকেজ। পাশাপাশি প্রতি মাসে থাকছে গিফট কার্ড জয়ের সুযোগ।
             </p>
             
             {/* Campaign Info Cards */}
@@ -87,7 +87,7 @@ const HeroSection = () => {
             </div>
             
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up justify-center" style={{ animationDelay: '0.5s' }}>
+            <div id="hero-cta-buttons" className="flex flex-col sm:flex-row gap-4 animate-fade-in-up justify-center" style={{ animationDelay: '0.5s' }}>
               <Button variant="gold" size="xl" asChild>
                 <a href="https://www.bhaggo.co/referral/" target="_blank" rel="noopener noreferrer">
                   রেফারেল প্রোগ্রামে যোগ দিন
